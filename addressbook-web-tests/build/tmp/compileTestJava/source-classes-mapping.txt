@@ -2,3 +2,5 @@ ru/stqa/pft/addressbook/GroupDate.java
  ru.stqa.pft.addressbook.GroupDate
 ru/stqa/pft/addressbook/GroupCreationTest.java
  ru.stqa.pft.addressbook.GroupCreationTest
+ru/stqa/pft/addressbook/NumberCreationTest.java
+ ru.stqa.pft.addressbook.NumberCreationTest
