@@ -1,10 +1,12 @@
-ru/stqa/pft/addressbook/GroupDate.java
- ru.stqa.pft.addressbook.GroupDate
-ru/stqa/pft/addressbook/GroupCreationTest.java
- ru.stqa.pft.addressbook.GroupCreationTest
 ru/stqa/pft/addressbook/NumberCreationTest.java
  ru.stqa.pft.addressbook.NumberCreationTest
+ru/stqa/pft/addressbook/GroupDate.java
+ ru.stqa.pft.addressbook.GroupDate
+ru/stqa/pft/addressbook/TestBase.java
+ ru.stqa.pft.addressbook.TestBase
 ru/stqa/pft/addressbook/NewAdressDate.java
  ru.stqa.pft.addressbook.NewAdressDate
 ru/stqa/pft/addressbook/GroupDelitionTest.java
  ru.stqa.pft.addressbook.GroupDelitionTest
+ru/stqa/pft/addressbook/GroupCreationTest.java
+ ru.stqa.pft.addressbook.GroupCreationTest
