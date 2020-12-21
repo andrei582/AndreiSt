@@ -6,3 +6,5 @@ ru/stqa/pft/addressbook/NumberCreationTest.java
  ru.stqa.pft.addressbook.NumberCreationTest
 ru/stqa/pft/addressbook/NewAdressDate.java
  ru.stqa.pft.addressbook.NewAdressDate
+ru/stqa/pft/addressbook/GroupDelitionTest.java
+ ru.stqa.pft.addressbook.GroupDelitionTest
