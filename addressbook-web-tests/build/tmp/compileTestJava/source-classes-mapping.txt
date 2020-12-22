@@ -1,14 +1,20 @@
+ru/stqa/pft/addressbook/model/NewAdressDate.java
+ ru.stqa.pft.addressbook.model.NewAdressDate
+ru/stqa/pft/addressbook/model/GroupDate.java
+ ru.stqa.pft.addressbook.model.GroupDate
+ru/stqa/pft/addressbook/appmaneger/GroupHelper.java
+ ru.stqa.pft.addressbook.appmaneger.GroupHelper
+ru/stqa/pft/addressbook/appmaneger/NavigationHelper.java
+ ru.stqa.pft.addressbook.appmaneger.NavigationHelper
+ru/stqa/pft/addressbook/appmaneger/SessionHelper.java
+ ru.stqa.pft.addressbook.appmaneger.SessionHelper
 ru/stqa/pft/addressbook/tests/GroupCreationTest.java
  ru.stqa.pft.addressbook.tests.GroupCreationTest
 ru/stqa/pft/addressbook/tests/TestBase.java
  ru.stqa.pft.addressbook.tests.TestBase
-ru/stqa/pft/addressbook/tests/NumberCreationTest.java
- ru.stqa.pft.addressbook.tests.NumberCreationTest
-ru/stqa/pft/addressbook/model/GroupDate.java
- ru.stqa.pft.addressbook.model.GroupDate
-ru/stqa/pft/addressbook/appmaneger/ApplicationMenager.java
- ru.stqa.pft.addressbook.appmaneger.ApplicationMenager
 ru/stqa/pft/addressbook/tests/GroupDelitionTest.java
  ru.stqa.pft.addressbook.tests.GroupDelitionTest
-ru/stqa/pft/addressbook/model/NewAdressDate.java
- ru.stqa.pft.addressbook.model.NewAdressDate
+ru/stqa/pft/addressbook/appmaneger/ApplicationMenager.java
+ ru.stqa.pft.addressbook.appmaneger.ApplicationMenager
+ru/stqa/pft/addressbook/tests/NumberCreationTest.java
+ ru.stqa.pft.addressbook.tests.NumberCreationTest
