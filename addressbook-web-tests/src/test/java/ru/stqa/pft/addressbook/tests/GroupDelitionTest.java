@@ -14,8 +14,8 @@ public class GroupDelitionTest extends TestBase {
   }
 
 
-  public boolean isAlertPresent() {
-    return applicationMenager.isAlertPresent();
-  }
+ // public boolean isAlertPresent() {
+ //   return applicationMenager.isAlertPresent();
+//  }
 
 }
