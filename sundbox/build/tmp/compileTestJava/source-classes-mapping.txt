@@ -1,2 +1,4 @@
 ru/stqa/pft/sandbox/SquareTest.java
  ru.stqa.pft.sandbox.SquareTest
+ru/stqa/pft/sandbox/EqationTest.java
+ ru.stqa.pft.sandbox.EqationTest

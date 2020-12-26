@@ -4,3 +4,5 @@ ru/stqa/pft/sandbox/MyFirstProgram.java
  ru.stqa.pft.sandbox.MyFirstProgram
 ru/stqa/pft/sandbox/Rectable.java
  ru.stqa.pft.sandbox.Rectable
+ru/stqa/pft/sandbox/Eqation.java
+ ru.stqa.pft.sandbox.Eqation
