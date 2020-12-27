@@ -19,7 +19,6 @@ public class AddressFormHelper extends HelperBase {
     type(By.name("title"), newAdressDate.getTitle());
     type(By.name("company"), newAdressDate.getCompany());
     type(By.name("address"), newAdressDate.getAddress());
-    wd.findElement(By.name("theform")).click();
     type(By.name("home"), newAdressDate.getPhoneHome());
     type(By.name("mobile"), newAdressDate.getPhoneMobile());
     type(By.name("work"), newAdressDate.getPhoneWork());

@@ -25,4 +25,10 @@ public class NavigationHelper extends HelperBase {
   public void gotoNewAddress() {
     clic(By.linkText("add new"));
   }
+  public void gotoEditAddress() {
+    clic(By.xpath("//img[@alt='Edit']"));
+  }
+  public void gotoAddressUpdate() {
+    clic(By.xpath("(//input[@name='update'])[2]"));
+  }
 }
