@@ -19,8 +19,9 @@ public class NewAdressDate {
   private final String mouseBirsday;
   private final String yearBirsday;
   private final String coments;
+  private boolean creation;
 
-  public NewAdressDate(String name, String middle, String lastname, String group, String nickename, String title, String company, String address, String phoneHome, String phoneMobile, String phoneWork, String fax, String eAddress1, String eAddress2, String dayBirsday, String mouseBirsday, String yearBirsday, String coments) {
+  public NewAdressDate(String name, String middle, String lastname, String group, String nickename, String title, String company, String address, String phoneHome, String phoneMobile, String phoneWork, String fax, String eAddress1, String eAddress2, String dayBirsday, String mouseBirsday, String yearBirsday, String coments, boolean creation) {
     this.name = name;
     this.middle = middle;
     this.lastname = lastname;
@@ -39,6 +40,7 @@ public class NewAdressDate {
     this.mouseBirsday = mouseBirsday;
     this.yearBirsday = yearBirsday;
     this.coments = coments;
+    this.creation = creation;
   }
 
   public String getName() {
@@ -112,4 +114,5 @@ public class NewAdressDate {
   public String getGroup() {
     return group;
   }
+  public boolean getCreation() {return creation; }
 }
