@@ -1,6 +1,7 @@
 package ru.stqa.pft.addressbook.appmaneger;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 import ru.stqa.pft.addressbook.model.NewAdressDate;
@@ -33,6 +34,9 @@ public class AddressFormHelper extends HelperBase {
     wd.findElement(By.name("bmonth")).click();
   type(By.name("byear"),newAdressDate.getYearBirsday());
    type(By.name("notes"),newAdressDate.getComents());
+  if (isElementPresent((By.name("new_group")))) {
+    new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(newAdressDate.getGroup());
+  }
   }
 
 

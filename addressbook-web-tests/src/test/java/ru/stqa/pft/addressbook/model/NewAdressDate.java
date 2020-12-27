@@ -4,6 +4,7 @@ public class NewAdressDate {
   private final String name;
   private final String middle;
   private final String lastname;
+  private final String group;
   private final String nickename;
   private final String title;
   private final String company;
@@ -19,10 +20,11 @@ public class NewAdressDate {
   private final String yearBirsday;
   private final String coments;
 
-  public NewAdressDate(String name, String middle, String lastname, String nickename, String title, String company, String address, String phoneHome, String phoneMobile, String phoneWork, String fax, String eAddress1, String eAddress2, String dayBirsday, String mouseBirsday, String yearBirsday, String coments) {
+  public NewAdressDate(String name, String middle, String lastname, String group, String nickename, String title, String company, String address, String phoneHome, String phoneMobile, String phoneWork, String fax, String eAddress1, String eAddress2, String dayBirsday, String mouseBirsday, String yearBirsday, String coments) {
     this.name = name;
     this.middle = middle;
     this.lastname = lastname;
+    this.group = group;
     this.nickename = nickename;
     this.title = title;
     this.company = company;
@@ -105,5 +107,9 @@ public class NewAdressDate {
 
   public String getComents() {
     return coments;
+  }
+
+  public String getGroup() {
+    return group;
   }
 }
