@@ -15,10 +15,20 @@ public class NavigationHelper extends HelperBase {
   }
 
   public void gotoGroupPage() {
-             clic(By.linkText("groups"));
+    // проверяем, не находимся ли мы уже в группе.:
+    if (isElementPresent(By.tagName("h1"))
+            && wd.findElement(By.tagName("h1")).getText().equals("Groups")
+            && isElementPresent(By.name("new")) ){
+      return;
+    }
+    clic(By.linkText("groups"));
   }
 
   public void gotoHome() {
+    // проверяем, не наодимся ли мы в странице Home:
+    if (isElementPresent(By.id("maintable"))){
+      return;
+    }
     clic(By.linkText("home"));
   }
 
