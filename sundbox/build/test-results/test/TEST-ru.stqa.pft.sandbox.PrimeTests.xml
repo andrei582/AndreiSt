@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.pft.sandbox.PrimeTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-01-02T17:56:30" hostname="DESKTOP-FFBR9KB" time="4.404">
+  <properties/>
+  <testcase name="testPrimesFast" classname="ru.stqa.pft.sandbox.PrimeTests" time="0.004"/>
+  <testcase name="testNonPrimes" classname="ru.stqa.pft.sandbox.PrimeTests" time="0.0"/>
+  <testcase name="testPrimes" classname="ru.stqa.pft.sandbox.PrimeTests" time="4.399"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
