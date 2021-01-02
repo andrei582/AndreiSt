@@ -25,8 +25,9 @@ public class GroupHelper extends HelperBase {
     clic(By.name("new"));
   }
 
-  public void selectGroup() {
-    clic(By.name("selected[]"));
+  public void selectGroup(int index) {
+    wd.findElements(By.name("selected[]")).get(index).click();
+   // clic(By.name("selected[]")); это старый вариант с переходом на первый элемент
   }
 
   public void initGroupModification() {

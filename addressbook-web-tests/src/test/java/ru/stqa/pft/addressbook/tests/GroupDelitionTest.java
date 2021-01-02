@@ -14,7 +14,9 @@ public class GroupDelitionTest extends TestBase {
       applicationMenager.getGroupHelper().createGroup(new GroupDate("test21", null, null));
       applicationMenager.getNavigationHelper().gotoGroupPage();
     }
-    applicationMenager.getGroupHelper().selectGroup();
+    if (before != 0) {
+      applicationMenager.getGroupHelper().selectGroup(before - 1);
+    } else applicationMenager.getGroupHelper().selectGroup(before);
     applicationMenager.delitSelectedGroup();
     applicationMenager.getNavigationHelper().gotoGroupPage();
     if (before != 0) {
