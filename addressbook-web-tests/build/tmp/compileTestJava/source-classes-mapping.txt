@@ -22,7 +22,7 @@ ru/stqa/pft/addressbook/appmaneger/ApplicationMenager.java
  ru.stqa.pft.addressbook.appmaneger.ApplicationMenager
 ru/stqa/pft/addressbook/tests/GroupDelitionTest.java
  ru.stqa.pft.addressbook.tests.GroupDelitionTest
-ru/stqa/pft/addressbook/tests/NumberModificationTest.java
- ru.stqa.pft.addressbook.tests.NumberModificationTest
 ru/stqa/pft/addressbook/tests/GroupModificationTests.java
  ru.stqa.pft.addressbook.tests.GroupModificationTests
+ru/stqa/pft/addressbook/tests/NumberModificationTest.java
+ ru.stqa.pft.addressbook.tests.NumberModificationTest
