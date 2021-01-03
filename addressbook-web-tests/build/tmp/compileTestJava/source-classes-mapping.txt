@@ -10,8 +10,8 @@ ru/stqa/pft/addressbook/appmaneger/AddressFormHelper.java
  ru.stqa.pft.addressbook.appmaneger.AddressFormHelper
 ru/stqa/pft/addressbook/appmaneger/GroupHelper.java
  ru.stqa.pft.addressbook.appmaneger.GroupHelper
-ru/stqa/pft/addressbook/tests/GroupCreationTest.java
- ru.stqa.pft.addressbook.tests.GroupCreationTest
+ru/stqa/pft/addressbook/tests/NumberModificationTest.java
+ ru.stqa.pft.addressbook.tests.NumberModificationTest
 ru/stqa/pft/addressbook/tests/TestBase.java
  ru.stqa.pft.addressbook.tests.TestBase
 ru/stqa/pft/addressbook/tests/NumberCreationTest.java
@@ -24,5 +24,5 @@ ru/stqa/pft/addressbook/tests/GroupDelitionTest.java
  ru.stqa.pft.addressbook.tests.GroupDelitionTest
 ru/stqa/pft/addressbook/tests/GroupModificationTests.java
  ru.stqa.pft.addressbook.tests.GroupModificationTests
-ru/stqa/pft/addressbook/tests/NumberModificationTest.java
- ru.stqa.pft.addressbook.tests.NumberModificationTest
+ru/stqa/pft/addressbook/tests/GroupCreationTest.java
+ ru.stqa.pft.addressbook.tests.GroupCreationTest
