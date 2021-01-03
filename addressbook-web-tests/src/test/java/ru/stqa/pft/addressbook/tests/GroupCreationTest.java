@@ -10,12 +10,12 @@ public class GroupCreationTest extends TestBase {
 
 
   @Test
-  public void testGroupCreation()  throws Exception{
-    List<GroupDate> before = applicationMenager.getGroupHelper().getGroupList();
+  public void testGroupCreation() throws Exception {
     applicationMenager.getNavigationHelper().gotoGroupPage();
+    List<GroupDate> before = applicationMenager.getGroupHelper().getGroupList();
     applicationMenager.getGroupHelper().createGroup(new GroupDate("test21", null, null));
     applicationMenager.getNavigationHelper().gotoGroupPage();
-    applicationMenager.getNavigationHelper().gotoLogAut();
+  //  applicationMenager.getNavigationHelper().gotoLogAut();
     List<GroupDate> after = applicationMenager.getGroupHelper().getGroupList();
     Assert.assertEquals(after.size(), before.size() + 1);
   }

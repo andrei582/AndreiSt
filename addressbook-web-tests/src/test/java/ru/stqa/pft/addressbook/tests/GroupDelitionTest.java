@@ -9,7 +9,7 @@ import java.util.List;
 public class GroupDelitionTest extends TestBase {
 
   @Test
-  public void testGroupDelition() throws Exception {
+  public void testGroupDelition()  {
     applicationMenager.getNavigationHelper().gotoGroupPage();
     if (! applicationMenager.getGroupHelper().isThereAGroup() ){
       applicationMenager.getGroupHelper().createGroup(new GroupDate("test21", null, null));
@@ -22,7 +22,9 @@ public class GroupDelitionTest extends TestBase {
     applicationMenager.getNavigationHelper().gotoGroupPage();
     List<GroupDate> after = applicationMenager.getGroupHelper().getGroupList();
       Assert.assertEquals(after.size(), before.size() - 1);
-    applicationMenager.getNavigationHelper().gotoLogAut();
+  //  applicationMenager.getNavigationHelper().gotoLogAut();
+    before.remove(before.size() - 1);
+    Assert.assertEquals(before, after);
   }
 
 
