@@ -1,6 +1,7 @@
 package ru.stqa.pft.addressbook.tests;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.stqa.pft.addressbook.model.GroupDate;
 
@@ -8,13 +9,17 @@ import java.util.List;
 
 public class GroupDelitionTest extends TestBase {
 
-  @Test
-  public void testGroupDelition()  {
+  @BeforeMethod
+  public void ensurePreconditions() {
     applicationMenager.getNavigationHelper().gotoGroupPage();
     if (! applicationMenager.getGroupHelper().isThereAGroup() ){
-      applicationMenager.getGroupHelper().createGroup(new GroupDate("test21", null, null));
+      applicationMenager.getGroupHelper().createGroup(new GroupDate("test21", "modific", "modification"));
       applicationMenager.getNavigationHelper().gotoGroupPage();
     }
+  }
+
+  @Test
+  public void testGroupDelition()  {
     List<GroupDate> before = applicationMenager.getGroupHelper().getGroupList();
 
     applicationMenager.getGroupHelper().selectGroup(before.size() - 1);

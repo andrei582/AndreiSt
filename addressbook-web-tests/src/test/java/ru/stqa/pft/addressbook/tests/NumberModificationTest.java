@@ -6,7 +6,7 @@ import ru.stqa.pft.addressbook.model.NewAdressDate;
 public class NumberModificationTest extends TestBase{
 
 
-  @Test
+  @Test(enabled = false)
   public void testNumberModification() throws Exception {
     applicationMenager.getNavigationHelper().gotoHome();
     applicationMenager.getNavigationHelper().gotoEditAddress();
